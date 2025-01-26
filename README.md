@@ -34,18 +34,14 @@ The **Facial Recognition Attendance System** is a Python-based application that 
    source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-4. **Download Pre-trained Models**:
+3. **Download Pre-trained Models**:
    - Download the facial landmark predictor (`shape_predictor_68_face_landmarks.dat`) and face recognition model (`dlib_face_recognition_resnet_model_v1.dat`) from the [dlib website](http://dlib.net/).
    - Place these files in the `models/` directory.
 
-5. **Run the Application**:
+6. **Run the Script**:
    ```bash
-   python app.py
+   python main.py
    ```
 
 ## Usage
